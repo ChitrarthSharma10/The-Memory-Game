@@ -28,7 +28,7 @@ function initGame() {
         const card = document.createElement('div');
         card.classList.add('card');
         card.innerHTML = `
-            <div class="card-front"></div>
+            <div class="card-front"> ? </div>
             <div class="card-back">${icon}</div>
         `;
         card.addEventListener('click', flipCard);
